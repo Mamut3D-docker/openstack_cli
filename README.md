@@ -13,6 +13,6 @@ https://<YOUR_OPENSTACK_WEB_DOMAIN_NAME>/horizon/project/access_and_security/
 
 Commands to run container:
 ~~~
-$ OSTACKRC=/home/mtd/
+$ OSTACKRC=<ADD_PATH_TO_openrc.sh>
 $ docker run --rm -it -v $OSTACKRC:/root/rc.sh:z mamut3d/openstack_cli bash -c "cd; . rc.sh; bash"
 ~~~
