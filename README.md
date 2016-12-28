@@ -1,6 +1,8 @@
 # openstack_cli
 Docker image containing openstack_cli tools
 
+Dockerhub repo: https://hub.docker.com/r/mamut3d/openstack_cli/
+
 ###Use
 You need open.rc file for your openstack project. It be downloaded from Horizon 
 ~~~
