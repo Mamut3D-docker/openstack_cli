@@ -8,7 +8,7 @@ Compute->Access & Security->API Access->Download OpenStack RC File v3
 ~~~
 or directly from 
 ~~~
-https://<YOUR_OPENSTACK_WEB_DOMAIN_NAME>/horizon/project/access_and_security/
+https://<YOUR_OPENSTACK_WEB_DOMAIN_NAME>/horizon/project/access_and_security/openrc/
 ~~~
 
 Commands to run container:
