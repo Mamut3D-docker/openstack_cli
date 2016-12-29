@@ -15,9 +15,8 @@ RUN apt-get update && apt-get install -y \
   ca-certificates \
   gcc \
   musl-dev \
-  && pip install --upgrade --no-cache-dir pip setuptools python-openstackclient python-keystoneclient \
+  && pip install --upgrade --no-cache-dir pip setuptools python-openstackclient python-keystoneclient \ 
+  && pip install --upgrade --no-cache-dir python-heatclient python-neutronclient \
   && rm -rf /var/cache/apk/*
 
-VOLUME ["/data"]
-
-CMD ["/bin/sh"]
+CMD ["/bin/bash"]
