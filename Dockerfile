@@ -16,7 +16,7 @@ RUN apt-get update && apt-get install -y \
   gcc \
   musl-dev \
   && pip install --upgrade --no-cache-dir pip setuptools python-openstackclient python-keystoneclient \ 
-  && pip install --upgrade --no-cache-dir python-heatclient python-neutronclient \
+  && pip install --upgrade --no-cache-dir python-heatclient python-neutronclient python-ceilometerclient\
   && rm -rf /var/cache/apk/*
 
 CMD ["/bin/bash"]
