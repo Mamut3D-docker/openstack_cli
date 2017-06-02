@@ -14,6 +14,7 @@ RUN apt-get update && apt-get install -y \
   python-setuptools \
   ca-certificates \
   gcc \
+  libssl-dev \
   musl-dev \
   && pip install --upgrade --no-cache-dir pip setuptools python-openstackclient python-keystoneclient \ 
   && pip install --upgrade --no-cache-dir python-heatclient python-neutronclient python-ceilometerclient shade\
